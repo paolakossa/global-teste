@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Cadastro</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+  	<link rel="stylesheet" href="css/cadastro.css">  
+</head>
+<body>
+	
+	<section class="container">
+		
+		<div class="card">
+			
+			<h1 class="titulo">Cadastrar</h1>
+
+				<div id="msgError"></div>
+				<div id="msgSuccess"></div>
+
+				<div class="label-float">
+					<input class="input" type="text" id="nome" placeholder="ex:Luke Skywalker">
+					<label id="labelNome" class="label" for="nome">Nome</label>
+				</div>
+
+				<div class="label-float">
+					<input class="input" type="text" id="usuario" placeholder="ex:lukesky">
+					<label id="labelUsuario" class="label" for="usuario">Usuário</label>
+				</div>
+
+				<div class="label-float">
+					<input class="input" type="password" id="senha" placeholder="ex:12@!22eEE">
+					<label id="labelSenha" class="label" for="senha">Senha</label>
+					<span id = "verSenha" class="fa-eye">👁</span>
+				</div>
+
+				<div class="label-float">
+					<input class="input" type="password" id="confirmaSenha" placeholder="ex:12@!22eEE">
+					<label id="labelConfirmaSenha" class="label" for="confirmaSenha">Confirma Senha</label>
+					<span id="verConfirmeSenha" class="fa-eye">👁</span>
+				</div>
+
+		           	<div>
+
+		           	 	<button onclick="cadastrar()" class="justify-center botao">Cadastrar</button>
+		           	</div>
+
+		</div>
+	</section>
+	<script src="js/verSenhaCadastro.js"></script>
+	<script src="js/cadastrar.js"></script>
+</body>
+</html>

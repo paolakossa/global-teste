@@ -1,0 +1,117 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-image: url("hd-wallpaper-gafb51329d_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #CFD2CF;
+}
+
+.titulo{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 100%; 
+	margin-top: 100px;
+
+}
+
+.card{
+	background-color: #00000080;
+	padding: 30px;
+	border-radius: 4%;
+	box-shadow: 3px 3px 1px 0px #CFD2CF70;
+	width: 400px;
+}
+
+.input{
+	width: 100%;
+	padding: 5px 5px;
+	display: inline-block;
+	border: 0; 
+	border-bottom: 2px solid #2B4865;
+	background-color: transparent;
+	outline: none;
+	min-width: 180px;
+	font-size: 16px;
+	transition: all .3s ease-out;
+	border-radius: 0;
+	color: #CFD2CF;
+}
+
+.label-float{
+	position: relative;
+	padding-top: 13px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.input:focus{
+	border-bottom: 2px solid #FEC260;
+}
+
+.label{
+	pointer-events: none;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	transition: all .3s ease-out;
+}
+
+.input:focus + label {
+	font-size: 13px;
+	margin-top: 0;
+	color: #FEC260;
+}
+
+.botao{
+	background-color: #2B4865;
+	color: #CFD2CF;
+	border-color: #2B4865;
+	padding: 7px;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	transition: all .4s ease-out;
+	margin-left: 10rem;
+}
+
+.botao:hover{
+	background-color: #FEC260;
+
+}
+
+.fa-eye{
+	position: absolute;
+	top:15px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#msgError{
+	text-align: center;
+	color: #FF4A4A;
+	background-color: #FA9494;
+	padding: 10px;
+	border-radius: 4px;
+	display: none;
+	font-weight: 700;
+}
+
+#msgSuccess{
+	text-align: center;
+	color: #59CE8F;
+	background-color: #B1D7B4;
+	padding: 10px;
+	border-radius: 4px;
+	display: none;
+	font-weight: 700;
+}
+
