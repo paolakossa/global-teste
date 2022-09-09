@@ -2,20 +2,20 @@
 	"pele": [
 
 	{
-		"nome":"Luke Skywalker skin color fair",
-		"pele":100000
-	
-    },
+		"nome":"Luke Skywalker",
+		"pele":10000
+	},
+    
 
     {
-		"nome":"C-3PO skin color gold",
+		"nome":"C-3PO",
 		"pele": 5110050
 	},
 
 	{
-		"nome":"R2-D2 skin color white and blue",
-		"pele":1002401005000
-	},
+		"nome":"R2-D2",
+		"pele":1963046
+	}
 
 
    ] 

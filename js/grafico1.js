@@ -11,6 +11,8 @@ xmlHttp1.onreadystatechange = function () {
             return index.nome; 
         });
 
+        console.log(dataPoints1);
+
         const labelPele = dataPoints1.pele.map(function(index){
             return index.pele; 
         });
