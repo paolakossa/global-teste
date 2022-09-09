@@ -6,7 +6,16 @@ xmlHttp.send();
 
 xmlHttp.onreadystatechange = function () {
     if(this.readyState == 4 && this.status == 200) {
-        console.log(JSON.parse(this.responseText));
+        const dataPoints = JSON.parse(this.responseText);
+        const labelNome = dataPoints.ano.map(function(index){
+            return index.nome; 
+        });
+
+        const labelAno = dataPoints.ano.map(function(index){
+            return index.anodenascimento; 
+        });
+
+        console.log(labelAno);
     }
 }
 
