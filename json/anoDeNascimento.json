@@ -1,0 +1,23 @@
+{
+	"ano": [
+
+	{
+		"nome":"Luke Skywalker",
+		"ano de nascimento":"19BBY"
+	},
+    
+
+    {
+		"nome":"C-3PO",
+		"ano de nascimento":"112BBY"
+	},
+
+	{
+		"nome":"R2-D2",
+		"ano de nascimento":"33BBY"
+	},
+
+	
+    ]
+
+}
