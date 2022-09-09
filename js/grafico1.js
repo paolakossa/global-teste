@@ -13,18 +13,18 @@ xmlHttp1.onreadystatechange = function () {
 
         console.log(dataPoints1);
 
-        const labelPele = dataPoints1.pele.map(function(index){
-            return index.pele; 
+        const labelCor = dataPoints1.pele.map(function(index){
+            return index.cor; 
         });
 
-        const ctx = document.getElementById('myChart').getContext('2d');
+        const ctx = document.getElementById('myChart1').getContext('2d');
         const myChart = new Chart(ctx, {
             type: 'doughnut',
             data: {
                 labels: labelNome1,
           datasets: [{
             label: 'Cor de pele dos personagens Star Wars',
-            data: labelPele,
+            data: labelCor,
             backgroundColor: [
               'rgb(255, 99, 132)',
               'rgb(54, 162, 235)',

@@ -3,18 +3,18 @@
 
 				{
 					"nome":"Luke Skywalker",
-					"cor":10000
+					"cor":700
 				},
 			    
 
 			    {
 					"nome":"C-3PO",
-					"cor": 159784612
+					"cor": 800
 				},
 
 				{
 					"nome":"R2-D2",
-					"cor":7845213698
+					"cor":900
 				}
 
 
