@@ -12,7 +12,7 @@ xmlHttp.onreadystatechange = function () {
         });
 
         const labelAno = dataPoints.ano.map(function(index){
-            return index.anodenascimento; 
+            return index.anoNasc; 
         });
 
         console.log(labelAno);
