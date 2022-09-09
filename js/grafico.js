@@ -21,7 +21,7 @@ xmlHttp.onreadystatechange = function () {
             data: {
                 labels: labelNome,
           datasets: [{
-            label: 'My First Dataset',
+            label: 'Idade personagens Star Wars',
             data: labelAno,
             backgroundColor: [
               'rgb(255, 99, 132)',

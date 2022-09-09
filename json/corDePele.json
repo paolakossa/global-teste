@@ -1,0 +1,23 @@
+{
+	"pele": [
+
+	{
+		"nome":"Luke Skywalker, fair",
+		"pele":00100
+	
+    },
+
+    {
+		"nome":"C-3PO, gold",
+		"pele": 5110050
+	},
+
+	{
+		"nome":"R2-D2, white and blue",
+		"pele":0010024010050
+	},
+
+
+   ] 
+
+}
