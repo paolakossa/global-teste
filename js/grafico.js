@@ -12,32 +12,28 @@ xmlHttp.onreadystatechange = function () {
         });
 
         const labelAno = dataPoints.ano.map(function(index){
-            return index.anoNasc; 
+            return index.idade; 
         });
 
-        console.log(labelAno);
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: labelNome,
+          datasets: [{
+            label: 'My First Dataset',
+            data: labelAno,
+            backgroundColor: [
+              'rgb(255, 99, 132)',
+              'rgb(54, 162, 235)',
+              'rgb(255, 205, 86)'
+            ],
+            hoverOffset: 4
+          }]
+        }
+
+        });
+       
     }
 }
 
-const ctx = document.getElementById('myChart').getContext('2d');
-const myChart = new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-        labels: [
-    'Red',
-    'Blue',
-    'Yellow'
-  ],
-  datasets: [{
-    label: 'My First Dataset',
-    data: [300, 50, 100],
-    backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(54, 162, 235)',
-      'rgb(255, 205, 86)'
-    ],
-    hoverOffset: 4
-  }]
-}
-
-});

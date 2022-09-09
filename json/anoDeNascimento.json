@@ -3,18 +3,18 @@
 
 	{
 		"nome":"Luke Skywalker",
-		"dataNasc":"19BBY"
+		"idade":53
 	},
     
 
     {
 		"nome":"C-3PO",
-		"dataNasc":"112BBY"
+		"idade": 100
 	},
 
 	{
 		"nome":"R2-D2",
-		"dataNasc":"33BBY"
+		"idade":200
 	}
 
 
