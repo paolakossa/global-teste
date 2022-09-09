@@ -6,12 +6,12 @@ xmlHttp1.send();
 
 xmlHttp1.onreadystatechange = function () {
     if(this.readyState == 4 && this.status == 200) {
-        const dataPoints = JSON.parse(this.responseText);
-        const labelNome = dataPoints.pele.map(function(index){
+        const dataPoints1 = JSON.parse(this.responseText);
+        const labelNome1 = dataPoints1.pele.map(function(index){
             return index.nome; 
         });
 
-        const labelAno = dataPoints.pele.map(function(index){
+        const labelPele = dataPoints1.pele.map(function(index){
             return index.pele; 
         });
 
@@ -19,10 +19,10 @@ xmlHttp1.onreadystatechange = function () {
         const myChart = new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: labelNome,
+                labels: labelNome1,
           datasets: [{
             label: 'Cor de pele dos personagens Star Wars',
-            data: labelAno,
+            data: labelPele,
             backgroundColor: [
               'rgb(255, 99, 132)',
               'rgb(54, 162, 235)',
