@@ -1,23 +1,23 @@
 {
 	"pele": [
 
-	{
-		"nome":"Luke Skywalker",
-		"pele":10000
-	},
-    
+				{
+					"nome":"Luke Skywalker",
+					"cor":10000
+				},
+			    
 
-    {
-		"nome":"C-3PO",
-		"pele": 5110050
-	},
+			    {
+					"nome":"C-3PO",
+					"cor": 159784612
+				},
 
-	{
-		"nome":"R2-D2",
-		"pele":1963046
-	}
+				{
+					"nome":"R2-D2",
+					"cor":7845213698
+				}
 
 
-   ] 
+   			] 
 
 }
