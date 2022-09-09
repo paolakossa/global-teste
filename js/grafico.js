@@ -1,12 +1,12 @@
 const xmlHttp = new XMLHttpRequest();
-const url = 'https://swapi.dev/api/people/1/';
+const url = 'https://paolakossa.github.io/global-teste/json/anoDeNascimento.json';
 
 xmlHttp.open('GET', url, true); 
 xmlHttp.send(); 
 
 xmlHttp.onreadystatechange = function () {
     if(this.readyState == 4 && this.status == 200) {
-        console.log(this.responseText);
+        console.log(JSON.parse(this.responseText));
     }
 }
 
