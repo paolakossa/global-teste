@@ -3,7 +3,7 @@ body{
 	background-color: #B7C4CF;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #CFD2CF;
+	
 }
 
 .container{
@@ -41,20 +41,101 @@ body{
 }
 
 .container__canvas{
-	width: 30%;
+	width: 25%;
 	display: flex;
 	justify-content: space-between;
+	margin-left: 16rem;
 }
 
 .subtitulo__idade{
 	font-size: 25px;
 	color: #2B4865;
-	padding: 1rem 2rem;
-	width: 30%;
+	margin-left: 16rem;
+	width: 20%;
 	word-wrap: break-word;
 }
 
 .container__canvas__1{
 
 	margin-left: 20rem;
+}
+
+.subtitulo__pele{
+	font-size: 25px;
+	color: #2B4865;
+	margin-left: 38rem;
+	margin-top: -4rem;
+	width: 20%;
+	word-wrap: break-word;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+	color: #2B4865;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.container__tabela{
+	width: 60%;
+	height: 100%;
+	margin: 2rem auto;
+}
+
+.card__luke,
+.card__c3po,
+.card__r2d2{
+	background-color: #2B4865;
+	width: 30%;
+	color: #CFD2CF ;
+	display: none;
+}
+
+.botao__fav,
+.botao__fav1,
+.botao__fav2{
+	background-color: #CFD2CF;
+	color: #2B4865;
+	border-color: #2B4865;
+	padding: 5px;
+	font-weight: 700;
+	font-size: 12px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	transition: all .4s ease-out;
+	margin: 0rem 2rem;
+}
+
+.favoritos{
+	margin-top: 2rem;
+}
+
+.titulo__favoritos{
+	font-size: 25px;
+	color: #2B4865;
+	text-align: center;
+	font-weight: 700;	
+}
+.conteudo__favoritos,
+.conteudo__favoritos1,
+.conteudo__favoritos2,
+.conteudo__favoritos3,
+.conteudo__favoritos4{
+	text-align: center;
+	margin-top: 1rem;
+	color: #2B4865;
 }

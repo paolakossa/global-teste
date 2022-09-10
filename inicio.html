@@ -25,13 +25,131 @@
 	</section>
 	
 	<h2 class="subtitulo__idade">Idades dos personagens de Star Wars</h2>
-	<h2 class="subtitulo__pele">Cor da pele</h2>
-	
+	<h2 class="subtitulo__pele">Cor da pele dos personagens de Star Wars</h2>
+
+	<section class="container__tabela">
+				<table>
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Idade</th>
+							<th>Cor da Pele</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-personagens">
+						<tr class="personagens" >
+							<td class="info-nome">Luke Skywalker</td>
+							<td class="info-idade">53</td>
+							<td class="info-cor">700 (fair)</td>
+						</tr>
+						
+
+						<tr class="personagens" >
+							<td class="info-nome1">C-3PO</td>
+							<td class="info-idade">100</td>
+							<td class="info-cor">800 (gold)</td>
+						</tr>
+
+						<tr class="personagens" >
+							<td class="info-nome2">R2-D2</td>
+							<td class="info-idade">200</td>
+							<td class="info-cor">900 (white, blue)</td>
+						</tr>
+					</tbody>
+				</table>
+				<fieldset class="card__luke">
+					<h3 class="legenda__luke">Escolha outras características do Luke Skywalker:</h3>
+					<div>
+					 <input type="checkbox" id="altura__luke" name="altura">
+					  <label for="altura" class="altura__label--luke">Luke altura: 172 cm</label>
+					</div>
+					<div>
+					  <input type="checkbox" id="peso__luke" name="peso">
+					  <label for="peso" class="peso__label--luke">Luke peso: 77Kg</label>
+					</div>
+					<div>
+						<input type="checkbox" id="cabelo__luke" name="cabelo">
+						<label for="cabelo" class="cabelo__label--luke">Luke cor do cabelo: Loiro</label>
+					  </div>
+					  <div>
+						<input type="checkbox" id="olhos__luke" name="olhos">
+						<label for="olhos" class="olhos__label--luke">Luke cor dos olhos: Azuis</label>
+					  </div>
+					  <div>
+						<input type="checkbox" id="genero__luke" name="genero">
+						<label for="genero" class="genero__label--luke">Luke gênero: Masculino</label>
+					  </div>
+					  <div><button class="botao__fav">Adicionar aos favoritos</button></div>
+				</fieldset>
+
+				<fieldset class="card__c3po">
+					<h3 class="legenda__c3po">Escolha outras características do C-3PO:</h3>
+					<div>
+					 <input type="checkbox" id="altura__c3po" name="altura">
+					  <label for="altura" class="altura__label--c3po">C-3PO altura: 167 cm</label>
+					</div>
+					<div>
+					  <input type="checkbox" id="peso__c3po" name="peso">
+					  <label for="peso" class="peso__label--c3po">C-3PO peso: 75Kg</label>
+					</div>
+					<div>
+						<input type="checkbox" id="cabelo__c3po" name="cabelo">
+						<label for="cabelo" class="cabelo__label--c3po">C-3PO cor do cabelo: n/a</label>
+					  </div>
+					  <div>
+						<input type="checkbox" id="olhos__c3po" name="olhos">
+						<label for="olhos" class="olhos__label--c3po">C-3PO cor dos olhos: Amarelo</label>
+					  </div>
+					  <div>
+						<input type="checkbox" id="genero__c3po" name="genero">
+						<label for="genero" class="genero__label--c3po">C-3PO gênero: n/a</label>
+					  </div>
+					  <div><button class="botao__fav1">Adicionar aos favoritos</button></div>
+				</fieldset>
+
+				<fieldset class="card__r2d2">
+					<h3 class="legenda__r2d2">Escolha outras características do R2-D2:</h3>
+					<div>
+					 <input type="checkbox" id="altura__r2d2" name="altura">
+					  <label for="altura" class="altura__label--r2d2">R2-D2 altura: 96 cm</label>
+					</div>
+					<div>
+					  <input type="checkbox" id="peso__r2d2" name="peso">
+					  <label for="peso" class="peso__label--r2d2">R2-D2 peso: 32Kg</label>
+					</div>
+					<div>
+						<input type="checkbox" id="cabelo__r2d2" name="cabelo">
+						<label for="cabelo" class="cabelo__label--r2d2">R2-D2 cor do cabelo: n/a</label>
+					  </div>
+					  <div>
+						<input type="checkbox" id="olhos__r2d2" name="olhos">
+						<label for="olhos" class="olhos__label--r2d2">R2-D2 cor dos olhos: Vermelho</label>
+					  </div>
+					  <div>
+						<input type="checkbox" id="genero__r2d2" name="genero">
+						<label for="genero" class="genero__label--r2d2">R2-D2 gênero: n/a</label>
+					  </div>
+					  <div><button class="botao__fav2">Adicionar aos favoritos</button></div>
+				</fieldset>
+
+
+				
+
+				<section class="favoritos">
+					<h3 class="titulo__favoritos">Lista favoritos</h3>
+					<div class="conteudo__favoritos"></div>
+					<div class="conteudo__favoritos1"></div>
+					<div class="conteudo__favoritos2"></div>
+					<div class="conteudo__favoritos3"></div>
+					<div class="conteudo__favoritos4"></div>
+				</section>
 
 	<script src= js/sair.js></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
 	<script src="js/grafico.js"></script>
 	<script src="js/grafico1.js"></script>
+	<script src="js/abrirCard.js"></script>
+	<script src="js/adicionarFavoritosLuke.js"></script>
 
 
 </body>

@@ -11,8 +11,6 @@ xmlHttp1.onreadystatechange = function () {
             return index.nome; 
         });
 
-        console.log(dataPoints1);
-
         const labelCor = dataPoints1.pele.map(function(index){
             return index.cor; 
         });
@@ -26,9 +24,9 @@ xmlHttp1.onreadystatechange = function () {
             label: 'Cor de pele dos personagens Star Wars',
             data: labelCor,
             backgroundColor: [
-              'rgb(255, 99, 132)',
-              'rgb(54, 162, 235)',
-              'rgb(255, 205, 86)'
+              '#EDDFB3',
+              '#E6B325',
+              '#25316D'
             ],
             hoverOffset: 4
           }]
