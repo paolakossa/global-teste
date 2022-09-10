@@ -100,7 +100,7 @@ function cadastrar() {
 		msgError.innerHTML = '';
 
 		setTimeout(() => {
-			window.location.href = 'file:///C:/Users/paola.kossa/OneDrive/Documentos/global-teste/login.html'
+			window.location.href = 'https://paolakossa.github.io/global-teste/login.html'
 		}, 2000);
 
 		

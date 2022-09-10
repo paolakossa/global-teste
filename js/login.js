@@ -29,7 +29,7 @@ function entrar () {
 
         if(usuario.value == userValid.user && senha.value == userValid.senha && usuario.value != '' && senha.value != '' ) {
 
-            window.location.href = 'file:///C:/Users/paola.kossa/OneDrive/Documentos/global-teste/inicio.html';
+            window.location.href = 'https://paolakossa.github.io/global-teste/inicio.html';
 
             let token = Math.random().toString(16).substr(2);
 
