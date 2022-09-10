@@ -44,26 +44,21 @@ body{
 	width: 25%;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 16rem;
+	margin-left: 20rem;
 }
 
 .subtitulo__idade{
 	font-size: 25px;
 	color: #2B4865;
-	margin-left: 16rem;
+	margin-left: 18rem;
 	width: 20%;
 	word-wrap: break-word;
-}
-
-.container__canvas__1{
-
-	margin-left: 20rem;
 }
 
 .subtitulo__pele{
 	font-size: 25px;
 	color: #2B4865;
-	margin-left: 38rem;
+	margin-left: 40rem;
 	margin-top: -4rem;
 	width: 20%;
 	word-wrap: break-word;
@@ -134,8 +129,71 @@ th{
 .conteudo__favoritos1,
 .conteudo__favoritos2,
 .conteudo__favoritos3,
-.conteudo__favoritos4{
+.conteudo__favoritos4,
+.conteudo__favoritos5,
+.conteudo__favoritos6,
+.conteudo__favoritos7,
+.conteudo__favoritos8,
+.conteudo__favoritos9,
+.conteudo__favoritos10,
+.conteudo__favoritos11,
+.conteudo__favoritos12,
+.conteudo__favoritos13,
+.conteudo__favoritos14{
 	text-align: center;
 	margin-top: 1rem;
 	color: #2B4865;
+}
+
+@media screen and (max-width: 768px) {
+	.container__canvas{
+		margin-left: 14rem;
+	}
+	
+	.subtitulo__idade{
+		margin-left: 12rem;
+		width: 30%;
+		margin-top: 2rem;
+
+	}
+	
+	.subtitulo__pele{
+		margin-left: 26rem;
+		margin-top: -5rem;
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.container__canvas{
+		justify-content: flex-start;
+		width: 50%;
+		padding-right: 50%;
+	}
+	
+	.subtitulo__idade{
+		margin-top: 2rem;
+		width: 50%;
+	}
+	
+	.subtitulo__pele{
+		margin-top: -5rem;
+		width: 50%;
+	}
+
+	table{
+		margin-left: 10rem;
+	}
+
+	.titulo__favoritos{
+		margin-left: 10rem;
+	}
+
+	.container{
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	}
 }
